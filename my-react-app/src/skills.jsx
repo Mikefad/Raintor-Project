@@ -95,14 +95,14 @@ const MySkills = () => {
     <section className="bg-black text-[#b2eee7] py-16 px-4 sm:px-6 md:px-8">
   <div className="max-w-6xl mx-auto">
     
-    {/* Button */}
+    
     <div className="mb-10">
       <button className="bg-white text-black px-6 py-3 rounded-full text-lg hover:bg-gray-200">
         Schedule a Call
       </button>
     </div>
 
-    {/* Title and Description */}
+    
     <div className="flex flex-col md:flex-row justify-between mb-16 gap-10">
       <motion.div
         ref={ref}
@@ -130,7 +130,7 @@ const MySkills = () => {
       </motion.div>
     </div>
 
-    {/* Skills Grid */}
+    
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       {skills.map((skill, index) => (
         <div
